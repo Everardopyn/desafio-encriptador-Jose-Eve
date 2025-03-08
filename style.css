@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.principal{
+    background-color: #F3F5FC;
+
+}
+
+.mensaje-cuadrodetexto{
+    color: #0A3871;
+    font-size: 32px;
+    font-family: "Inter";
+    width: 577;
+    height: 48px;
+    margin: 240px 0 0  168px;
+}
+
+.texto-pequeño{
+    font-family: 'Inter';
+    font-size: 12px;
+    opacity: 80%;
+    color: #495057;
+}
+
+.boton-encriptar{
+    font-family: 'Inter';
+    color: #FFFFFF;
+    background-color: #0A3871;
+    font-size: 16px;
+    height: 19px;
+    width: 280px;
+    padding: 24px;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.boton-desencriptar{
+    font-family: 'Inter';
+    color: #0A3871;
+    background-color: #D8DFE8;
+    font-size: 16px;
+    height: 19px;
+    width: 280px;
+    padding: 24px;
+    border-radius: 24px;
+    text-align: center;
+}
