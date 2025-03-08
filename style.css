@@ -1,8 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo-a{
+    background-color: #F3F5FC;
+    padding: 40px 0 0 40px; /*arriba, derecha, abajo izquierda*/
+
+}
+
 .principal{
     background-color: #F3F5FC;
+}
 
+.principal-contenido{
+    display: flex;
 }
 
 .mensaje-cuadrodetexto{
@@ -11,7 +25,13 @@
     font-family: "Inter";
     width: 577;
     height: 48px;
-    margin: 240px 0 0  168px;
+    margin-top: 168px;
+    margin-left: 240px;
+    line-height: 150%;
+    letter-spacing: 0;
+    border: none; /*quita el borde del cuadro*/
+    resize: none; /*quita la flechita que aparece en el cuadro de texto abajo a la izquierda*/
+    background-color: #F3F5FC;
 }
 
 .texto-pequeño{
@@ -30,7 +50,6 @@
     width: 280px;
     padding: 24px;
     border-radius: 24px;
-    text-align: center;
 }
 
 .boton-desencriptar{
@@ -43,4 +62,23 @@
     padding: 24px;
     border-radius: 24px;
     text-align: center;
+}
+
+.rectangulo{
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 944px;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    margin: 40px 0 0 80px;
+}
+
+.muñeco-inicio{
+    width: 336px;
+    height: 304px;
+
+}
+
+.creditos{
+    
 }
