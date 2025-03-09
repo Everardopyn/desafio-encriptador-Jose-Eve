@@ -39,6 +39,15 @@
     font-size: 12px;
     opacity: 80%;
     color: #495057;
+    line-height: 150%;
+    width: 229px;
+    height: 18px;
+    letter-spacing: 0;
+    padding: 851px 0 16px 264px;
+}
+
+.botones{
+    display: flex;
 }
 
 .boton-encriptar{
@@ -46,10 +55,13 @@
     color: #FFFFFF;
     background-color: #0A3871;
     font-size: 16px;
-    height: 19px;
-    width: 280px;
+    height: 67px;
+    width: 328px;
     padding: 24px;
     border-radius: 24px;
+    margin: 0 24px 0 240px;
+    gap: 8px;
+    border: none;
 }
 
 .boton-desencriptar{
@@ -57,11 +69,12 @@
     color: #0A3871;
     background-color: #D8DFE8;
     font-size: 16px;
-    height: 19px;
-    width: 280px;
+    height: 67px;
+    width: 328px;
     padding: 24px;
     border-radius: 24px;
-    text-align: center;
+    border: #0A3871 solid 1px;
+
 }
 
 .rectangulo{
@@ -71,6 +84,7 @@
     border-radius: 32px;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     margin: 40px 0 0 80px;
+    padding: 243px 0 32px 32px;
 }
 
 .muñeco-inicio{
@@ -79,6 +93,35 @@
 
 }
 
+.rectangulo-primer-texto{
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #343A40;
+    width: 336px;
+    height: 56px;
+    line-height: 120%;/*es como una sangria*/
+    letter-spacing: 0;
+    padding: 0 0 16px 0;
+}
+
+.rectangulo-segundo-texto{
+    color: #495057;
+    width: 336px;
+    height: 48px;
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0;
+    text-align: center;
+}
+
 .creditos{
-    
+    color: #0A3871;
+    background-color: #F3F5FC;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    padding: 20px;
 }

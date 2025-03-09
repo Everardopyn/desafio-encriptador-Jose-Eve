@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kodo encriptador</title>
+    <title>kodocharenji encriptador</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,14 +16,21 @@
                 <textarea class="mensaje-cuadrodetexto">Ingrese el texto aqui</textarea>
 
                 <p class="texto-pequeño">Solo letras minúsculas y sin acentos</p>
-                <button class="boton-encriptar">Encriptar</button>
-                <button class="boton-desencriptar">Desencriptar</button>
+                <div class="botones">
+                    <button class="boton-encriptar" type="button" onclick="ocultar_imagen()">Encriptar</button>
+                    <button class="boton-desencriptar" type="button" onclick="">Desencriptar</button>
+                </div>
             </div>
             <div class="rectangulo">
-               
+               <div id="ocultarElementos">
                 <img class="muñeco-inicio" src="Muñeco.png" alt="muñeco de inicio">
+                <p class="rectangulo-primer-texto" >Ningún mensaje fue encontrado</p>
+                <p class="rectangulo-segundo-texto" >Ingresa el texto que desees encriptar o desencriptar.</p>
+               </div>
+                
             </div>
         </section>
+        <script src="app.js"></script>
     </main>
     <footer>
         <p class="creditos">Desarrollado por José Everardo</p>
