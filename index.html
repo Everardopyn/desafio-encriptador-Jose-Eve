@@ -13,21 +13,29 @@
     <main class="principal">
         <section class="principal-contenido">
             <div>
-                <textarea class="mensaje-cuadrodetexto">Ingrese el texto aqui</textarea>
+                <textarea class="mensaje-cuadrodetexto" placeholder="Ingrese el texto aqui" ></textarea>
 
                 <p class="texto-pequeño">Solo letras minúsculas y sin acentos</p>
                 <div class="botones">
-                    <button class="boton-encriptar" type="button" onclick="ocultar_imagen()">Encriptar</button>
+                    <button class="boton-encriptar" type="button" onclick="encriptar()">Encriptar</button>
                     <button class="boton-desencriptar" type="button" onclick="">Desencriptar</button>
                 </div>
             </div>
+
+            
             <div class="rectangulo">
-               <div id="ocultarElementos">
+
+                <div>
+                <input class="texto-respuesta" id="textoEncriptado" style="display: none;" tipe="text"></input>
+            </div>
+               <div class="ocultar-elementos" id="ocultarElementos">
                 <img class="muñeco-inicio" src="Muñeco.png" alt="muñeco de inicio">
                 <p class="rectangulo-primer-texto" >Ningún mensaje fue encontrado</p>
                 <p class="rectangulo-segundo-texto" >Ingresa el texto que desees encriptar o desencriptar.</p>
                </div>
-                
+
+               <button class="boton-copiar" id="botonCopiar" style="display: none;">Copiar</button>
+               
             </div>
         </section>
         <script src="app.js"></script>

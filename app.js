@@ -1,6 +1,17 @@
 
-function ocultar_imagen(){
+function encriptar(){
     document.getElementById("ocultarElementos").style.display = 'none';
+
+    document.getElementById('textoEncriptado').style.display = 'flex';
+    document.getElementById("botonCopiar").style.display = "block";
+
+    const alumnos = document.querySelector(".mensaje-cuadrodetexto");
+
+    for (let indice = 0; indice < alumnos; indice++) {
+      const nuevoTelefono = alumnos[indice].textContent.replace("a","ai");
+      alumnos[indice].textContent = nuevoTelefono;
+      console.log(nuevoTelefono);
+  }
 }
 
 /*ambas formas son validas para ocultar los elementos
