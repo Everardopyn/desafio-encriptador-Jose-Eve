@@ -32,7 +32,10 @@
     border: none; /*quita el borde del cuadro*/
     resize: none; /*quita la flechita que aparece en el cuadro de texto abajo a la izquierda*/
     background-color: #F3F5FC;
+    outline: none;/*quita el recuadro que se marca cuando le das click para escribir*/
 }
+
+    
 
 .texto-pequeño{
     font-family: 'Inter';
@@ -100,7 +103,6 @@
     letter-spacing: 0;
     color: #495057;
     margin: 32px 0 0 32px;
-    border: black solid 1px;
     padding: -243px 0 -32px -32px;
 }
 
