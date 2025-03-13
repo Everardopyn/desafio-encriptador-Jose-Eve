@@ -1,9 +1,14 @@
 <h1 align="center">Desafio encriptador desencriptador</h1>
 
+<p align="center">
+ <a img="![captura](https://github.com/user-attachments/assets/70d960da-0460-4274-b5c8-ac2e882e6505)"/> </a>
+ <a href="https://x.com/docusaurus"><img src="https://github.com/user-attachments/assets/70d960da-0460-4274-b5c8-ac2e882e6505" align="right" alt="Twitter Follow" /></a>
+ <a href=""><img src="https://img.shields.io/badge/Versi%C3%B3n-1.5-blue" alt="npm version"></a>
+ <a href=""><img src="https://img.shields.io/badge/Estaso%20-En%20desarrollo-yellow%20" alt="npm Estado"></a>
+ <a href=""><img src="https://img.shields.io/badge/Fecha%20de%20%C3%BAltima%20actualizaci%C3%B3n-marzo-orange" alt="Fecha"></a>
 
-![Static Badge](https://img.shields.io/badge/Versi%C3%B3n-1.5-blue)
-![Static Badge](https://img.shields.io/badge/Estaso%20-En%20desarrollo-yellow%20)
-![Static Badge](https://img.shields.io/badge/Fecha%20de%20%C3%BAltima%20actualizaci%C3%B3n-marzo-orange)
+</p>
+
 
 ## Descripción del Proyecto
  <h4> Introducción </h4>
@@ -16,6 +21,9 @@ Este proyecto es un ejecicio de maquetación web y de logica de programación qu
 
 El proyecto se encentra en la fasse de desarrollo ya que aun faltal algunos detales en la maquetación de HTML y CSS y falta la parte de desarrollar el encriptar y desencriptar en JavaScrpt
 
-:hammer: <h4> Demostración de funciones y aplicaciones</h4>
-Acceso al Proyecto;
-Tecnologías utilizadas;
+ <h4> :hammer: Demostración de funciones y aplicaciones</h4>
+
+- **`Funcionalidad 1`**
+  Se ingresa texto para que se quiere encriptar, al presionar el boton encriptador se muetra en la parte derecha del recuadro el texto ya encriptado y se elimina la imagen y los textos que muestran que no se a añadido texto así como aparece un boton para copiar el texto
+- **`Funcionalidad 2`**
+  El texto encriptado se puede copiar y se pone nuevamente en el cuadro de texto para desencriptarlo, al presionar el boton de desencriptar aparece el texto en el cuadro de la derecha ya desencriptado
