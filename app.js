@@ -15,6 +15,7 @@ function encriptar(){
 
     const textoEncriptado = encriptacion(textoArea.value);
     mensaje.value = textoEncriptado;
+    textoArea.value = '';//limpia el campo para que no lo tengas que borrar manualmente
 }
 
 function encriptacion(stringEncriptada){
@@ -29,6 +30,27 @@ stringEncriptada = stringEncriptada.toLowerCase();
     }
 }
 return stringEncriptada;
+}
+
+function Desencriptar(){
+
+  const textoEncriptado = desencriptacion(textoArea.value);
+  mensaje.value = textoEncriptado;
+  textoArea.value = '';
+}
+
+function desencriptacion(stringDEsencriptada){
+
+
+let matrizCodigo = [["e", "entre"], ['i', 'imes'], ['a', 'ai'], ['o', 'ober'], ['u', 'ufat']];//se crea un conjunto de arreglos o arreglo de arreglos
+stringDEsencriptada = stringDEsencriptada.toLowerCase();
+
+for (let indice = 0; indice < matrizCodigo.length; indice++) {
+  if(stringDEsencriptada.includes(matrizCodigo[indice][0])){
+    stringDEsencriptada = stringDEsencriptada.replaceAll(matrizCodigo[indice][1],matrizCodigo[indice][0])
+  }
+}
+return stringDEsencriptada;
 }
 
 
