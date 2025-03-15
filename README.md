@@ -3,7 +3,7 @@
 <p align="center">
  <a img="![captura](https://github.com/user-attachments/assets/70d960da-0460-4274-b5c8-ac2e882e6505)"/> </a>
  <a href="https://x.com/docusaurus"><img src="https://github.com/user-attachments/assets/70d960da-0460-4274-b5c8-ac2e882e6505" align="right" alt="Twitter Follow" /></a>
- <a href=""><img src="https://img.shields.io/badge/Versi%C3%B3n-1.5-blue" alt="npm version"></a>
+ <a href=""><img src="https://img.shields.io/badge/Versi%C3%B3n-1.7-blue" alt="npm version"></a>
  <a href=""><img src="https://img.shields.io/badge/Estaso%20-En%20desarrollo-yellow%20" alt="npm Estado"></a>
  <a href=""><img src="https://img.shields.io/badge/Fecha%20de%20%C3%BAltima%20actualizaci%C3%B3n-marzo-orange" alt="Fecha"></a>
 
@@ -13,13 +13,13 @@
 ## Descripción del Proyecto
  <h4> Introducción </h4>
 
-Este proyecto es un ejecicio de maquetación web y de logica de programación que se desarrollo como practica de apendizaje en los cursos de Alura latam en donde se aplico lo aprendido y la investigación en documentación para crear la web, tiene como funcionalidad la encriptación de untexto en donde se modificaran las vocales por letras y se mostrara el texto es otra ventana así como tambien se puede desencriptar el texto encriptado para saber lo que dice.
+Este proyecto es un ejecicio de maquetación web y de logica de programación que se desarrollo como practica de apendizaje en los cursos de Alura latam en donde se aplico lo aprendido y la investigación en documentación para crear la web, tiene como funcionalidad la encriptación de un texto en donde se cambiaran las vocales por letras y se mostrara el texto es otra ventana así como tambien se puede desencriptar el texto encriptado para saber lo que dice y se tendrá un boton para copiar el texto.
 
 <h4>Estado del proyecto </h4>
 
 :construction: En desarrollo :construction:
 
-El proyecto se encentra en la fasse de desarrollo ya que aun faltal algunos detales en la maquetación de HTML y CSS y falta la parte de desarrollar el encriptar y desencriptar en JavaScrpt
+El proyecto se encentra en la fasse de desarrollo ya que aun faltal algunos detales en la maquetación de HTML y CSS así como el diseño responsivo y la funcionalidad de copiar el texto con el boton copiar
 
  <h4> :hammer: Demostración de funciones y aplicaciones</h4>
 
