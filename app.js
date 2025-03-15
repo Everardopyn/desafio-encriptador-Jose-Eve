@@ -26,7 +26,7 @@ stringEncriptada = stringEncriptada.toLowerCase();
 
   for (let indice = 0; indice < matrizCodigo.length; indice++) {
     if(stringEncriptada.includes(matrizCodigo[indice][0])){
-      stringEncriptada = stringEncriptada.replaceAll(matrizCodigo[indice][0],matrizCodigo[indice][1])
+      stringEncriptada = stringEncriptada.replaceAll(matrizCodigo[indice][0],matrizCodigo[indice][1]);
     }
 }
 return stringEncriptada;
@@ -46,8 +46,8 @@ let matrizCodigo = [["e", "entre"], ['i', 'imes'], ['a', 'ai'], ['o', 'ober'], [
 stringDEsencriptada = stringDEsencriptada.toLowerCase();
 
 for (let indice = 0; indice < matrizCodigo.length; indice++) {
-  if(stringDEsencriptada.includes(matrizCodigo[indice][0])){
-    stringDEsencriptada = stringDEsencriptada.replaceAll(matrizCodigo[indice][1],matrizCodigo[indice][0])
+  if(stringDEsencriptada.includes(matrizCodigo[indice][1])){
+    stringDEsencriptada = stringDEsencriptada.replaceAll(matrizCodigo[indice][1],matrizCodigo[indice][0]);
   }
 }
 return stringDEsencriptada;
