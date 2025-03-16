@@ -39,7 +39,9 @@
     outline: none;/*quita el recuadro que se marca cuando le das click para escribir*/
 }
 
-    
+.mensaje-cuadrodetexto::placeholder{/*le da el color a el texto que aparece antes de escriber en el cuadro de texto*/
+    color: #0A3871;/*sino aparece el texto gris como default*/
+}
 
 .texto-pequeño{
     font-family: 'Inter';
@@ -177,8 +179,9 @@
     .mensaje-cuadrodetexto{
         margin-left: 10%;
         margin-top: 3%;
-        font-size: 24px;
+        font-size: 32px;
     }
+
     .texto-pequeño{
         padding: 27% 0 16px 10%;
     }
@@ -228,7 +231,72 @@
 }
 
 @media(max-width: 480px){
-    .header{
-        background-color: blue;
+    .logo-a{
+        padding: 15% 0 0 0;
+        width: 15%;
+    }
+        .principal-contenido{
+        flex-direction: column;
+    }
+
+    .mensaje-cuadrodetexto{
+        margin-left: 10%;
+        margin-top: 10%;
+        font-size: 32px;
+        width: 80%;
+        height: 375px;
+    }
+
+    .texto-pequeño{
+        padding: 0 0 16px 10%;
+        font-size: 16px;
+        width: 80%;
+        padding: 0 0 16px 10%;
+    }
+    .botones{
+        flex-direction: column;
+    }
+    .boton-encriptar{
+        height: 70px;
+        padding: unset;
+        margin: 0 0 5% 10%;
+        width: 75%;
+    }
+    .boton-desencriptar{
+        height: 70px;
+        padding: unset;
+        margin: 0 0 2% 10%;
+        width: 75%;
+    }
+    .rectangulo{
+        margin: 3% 0 15px 10%;
+        width: 75%;
+        height: auto;
+    }
+    .texto-respuesta{
+        height: auto;
+    }
+    .ocultar-elementos{
+        padding: unset;
+    }
+    .muñeco-inicio{
+        width: 0;
+        height: 0;
+    }
+    .rectangulo-primer-texto{
+        width: 80%;
+        padding: 3% 0 5% 10%;
+    }
+    .rectangulo-segundo-texto{
+        width: 76%;
+        padding: 0 0 5% 10%
+    }
+    .boton-copiar{
+        margin: auto;
+        margin-bottom:3%;
+        width: 80%;
+    }
+    .creditos{
+        padding: 15px 0;
     }
 }
