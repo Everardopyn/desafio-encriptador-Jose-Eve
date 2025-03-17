@@ -230,7 +230,7 @@
     
 }
 
-@media(max-width: 480px){
+@media(max-width: 480px) {
     .logo-a{
         padding: 15% 0 0 0;
         width: 15%;
@@ -289,7 +289,8 @@
     }
     .rectangulo-segundo-texto{
         width: 76%;
-        padding: 0 0 5% 10%
+        padding: 0 0 5% 10%;
+        height: auto;
     }
     .boton-copiar{
         margin: auto;
