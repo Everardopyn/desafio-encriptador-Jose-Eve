@@ -13,7 +13,7 @@
 ## Descripción del Proyecto
  <h4> Introducción </h4>
 
-Este proyecto es un ejecicio de maquetación web y de logica de programación que se desarrollo como practica de apendizaje en los cursos de Alura latam en donde se aplico lo aprendido y la investigación en documentación para crear la web, tiene como funcionalidad la encriptación de un texto en donde se cambiaran las vocales por letras y se mostrara el texto es otra ventana así como tambien se puede desencriptar el texto encriptado para saber lo que dice y se tendrá un boton para copiar el texto.
+Este proyecto es un ejecicio de maquetación web y de logica de programación que se desarrollo como practica de apendizaje en los cursos de Alura latam en donde se aplico lo aprendido y la investigación en documentación para crear la web, tiene como funcionalidad la encriptación de un texto en donde se cambiaran las vocales por letras y se mostrara el texto es otra ventana así como tambien se puede desencriptar el texto encriptado para saber lo que dice y con el boton de copiar se ha intentado añadirlo pero para eso debe tener el permiso de la persona que lo usa para que pueda copiar el texto a portapapeles por lo que dependiendo de si la perosna lo considera invasivo o no puede funcioanr el boton por eso mismo no se ha añadidido la funcionalidad de copiar el texto.
 
 <h4>Estado del proyecto </h4>
 
